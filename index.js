@@ -1,3 +1,5 @@
 "use strict";
 
-console.log('Hola Mundo')
+const bcrypt = require('bcrypt');
+
+console.log(bcrypt.hashSync('Santa', 10));
